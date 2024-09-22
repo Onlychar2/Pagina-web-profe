@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f0f8ff; /* Color de fondo claro */
+}
+
+header {
+    background: #008cba; /* Color de encabezado */
+    color: #ffffff; /* Color del texto */
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.img-sobre-mi {
+    width: 100%;
+    max-width: 100px; /* Ajusta según sea necesario */
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.servicio {
+    margin: 15px 0;
+    padding: 10px;
+    border-left: 5px solid #008cba; /* Línea lateral de color */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #008cba;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
